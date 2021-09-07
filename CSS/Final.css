@@ -78,7 +78,7 @@ audio{
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("Final-imgs/up.png");
+    background-image: url("/Final-Project/Final-imgs/up.png");
 }
 .h-container{
     width: 100%;
@@ -122,7 +122,7 @@ a img{
     height: 64px;
     width: 64px;
     display: block;
-    background-image: url("Final-imgs/twitch-1320194643260954752.png");
+    background-image: url("/Final-Project/Final-imgs/twitch-1320194643260954752.png");
 }
 .facebook{
     height: 64px;
@@ -140,7 +140,7 @@ a img{
     height: 64px;
     width: 64px;
     display: block;
-    background-image: url("Final-imgs/IGlogosky80.png");
+    background-image: url("/Final-Project/Final-imgs/IGlogosky80.png");
 }
 .footer2{
     height: 150px;
