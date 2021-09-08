@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0px;
+    min-height: 100vh;
+    min-width: 100%;
+    max-width: 100%;
+    background-color: rgb(31, 47, 194);
+    background-repeat:round;
+}
+/*Navigation Bar + Logos + Links*/
+nav{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0px;
+    padding-right: 1px;
+}
+.logo2 img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0px;
+    padding-right: 1px;
+}
+.logo3 img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0px;
+}
+.logo4 img{
+    height: 60px;
+    width: 180px;
+    float: left;
+    margin: 0px;
+}
+.arrow img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin:0px;
+    opacity: 0.85;
+}
+.LAS img{
+        height: 60px;
+        width: 180px;
+        float: left;
+        margin: 0px;
+        opacity: 0.75;
+        padding-right: 0px;
+    }
+.NavUL{
+    list-style-type: none;
+    float: right;
+    margin: 7.5px;
+}
+li{
+    display: inline-block;
+    margin: 6px;
+    font-size: 25px;
+}
+audio{
+    position: fixed;
+    top: 2.25px;
+    right: 270px;
+    opacity: 0.8;   
+}
+
+/*Filler for NavBar*/
+.filler{
+    height: 600px;
+}
+
+
+/*FOOTER*/
+footer{
+    padding: 0px;
+    margin: 0px;
+    min-width: 100%;
+    height: 150px
+}
+.footer-main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.footer1{
+    height: 150px;
+    width: 85%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+a img{
+    height: 64px;
+    width: 64px;
+}
+.twitch{
+    height: 64px;
+    width: 64px;
+    display: block;
+    background-image: url("/Final-Project/Final-imgs/twitch-1320194643260954752.png");
+}
+.facebook{
+    height: 64px;
+    width: 64px;
+    display: block;
+    background-image: url("https://img.icons8.com/nolan/64/facebook.png");
+}
+.twitter{
+    height: 64px;
+    width: 64px;
+    display: block;
+    background-image: url("https://img.icons8.com/nolan/64/twitter-squared.png")
+}
+.instagram{
+    height: 64px;
+    width: 64px;
+    display: block;
+    background-image: url("/Final-Project/Final-imgs/IGlogosky80.png");
+}
+.footer2{
+    height: 150px;
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    color:cornsilk;
+    font-size: 16px;
+    text-align: center;
+}
