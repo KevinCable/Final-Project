@@ -75,6 +75,7 @@ audio{
 /*Filler for NavBar*/
 .filler{
     height: 600px;
+    background-color:red;
 }
 
 
