@@ -4,7 +4,7 @@ body{
     min-height: 100vh;
     min-width: 100%;
     max-width: 100%;
-    background-color: blueviolet;
+    background-image: -webkit-linear-gradient(black 0.11%,purple 33%,blue 70%, black 92.5%);
     background-repeat:round;
 }
 /*Navigation Bar + Logos + Links*/
@@ -74,11 +74,216 @@ audio{
 
 /*Filler for NavBar*/
 .filler{
-    height: 600px;
+    height: 60px;
     background-color:red;
 }
-
-
+/*About Columns*/
+.About-Columns div{
+    display: flex;
+}
+.About-Columns{
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+.About-Container{
+    height: 360px;
+    width: 90%;
+    position: relative;
+    left: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.About-Image1{
+    height: 400px;
+    width: 49.25%;
+    border: 2px ridge #346bbd;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 2px;
+}
+.Image1-Container{
+    height: 100%;
+    width: 100%;
+    background-image: url(/Final-Project/Final-imgs/UpYosemite.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.Image1-Container img{
+    height: 100%;
+    width: 100%;
+}
+.About-Text1{
+    height: 400px;
+    width: 49.25%;
+    background: url(/Final-Project/Final-imgs/andy-holmes-rCbdp8VCYhQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    border: 2px ridge #346bbd;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 2px;
+}
+.Text1-Container{
+    display: block;
+}
+.Text1-Info{
+    font-size: 35px;
+    font-family: 'Bangers',cursive;
+    font-weight: bold;
+    text-align: center;
+    background: -webkit-linear-gradient(#c633e4 28%, rgb(112, 24, 124),#0299be 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #000000;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/*PT2*/
+.About-Columns div{
+    display: flex;
+}
+.About-Columns{
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+.About-Container{
+    height: 360px;
+    width: 90%;
+    position: relative;
+    left: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.About-Image2{
+    height: 400px;
+    width: 49.25%;
+    border: 2px ridge #346bbd;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 2px;
+}
+.Image2-Container{
+    height: 100%;
+    width: 100%;
+    background-image: url(/Final-Project/Final-imgs/Yosemite.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.Image2-Container img{
+    height: 100%;
+    width: 100%;
+}
+.About-Image3{
+    height: 400px;
+    width: 49.25%;
+    border: 2px ridge #346bbd;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 2px;
+}
+.Image3-Container{
+    height: 100%;
+    width: 100%;
+    background-image: url(/Final-Project/Final-imgs/FamilyPismo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.Image3-Container img{
+    height: 100%;
+    width: 100%;
+}
+/*PT3*/
+.About-Columns div{
+    display: flex;
+}
+.About-Columns{
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+.About-Container{
+    height: 360px;
+    width: 90%;
+    position: relative;
+    left: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.About-Image4{
+    height: 400px;
+    width: 49.25%;
+    border: 2px ridge #346bbd;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 2px;
+}
+.Image4-Container{
+    height: 100%;
+    width: 100%;
+    background-image: url(/Final-Project/Final-imgs/Shaver.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.Image4-Container img{
+    height: 100%;
+    width: 100%;
+}
+.About-Image5{
+    height: 400px;
+    width: 49.25%;
+    border: 2px ridge #346bbd;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 2px;
+}
+.Image5-Container{
+    height: 100%;
+    width: 100%;
+    background-image: url(/Final-Project/Final-imgs/LeMesa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.Image5-Container img{
+    height: 100%;
+    width: 100%;
+}
+/*Map*/
+.Map-Container {
+    height: 600px;
+    width: 89.9%;
+    margin: 5%;
+    position: relative;
+    left: 0;
+    background-color: #fff;
+    border: 1px ridge #792a9e;
+}
 /*FOOTER*/
 footer{
     padding: 0px;
